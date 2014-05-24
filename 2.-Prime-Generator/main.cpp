@@ -10,8 +10,9 @@ int main() {
 	// your code goes here
 	int noOfTestCases;
 	scanf("%d", &noOfTestCases);
-	for (int i=0; i<noOfTestCases; ++i){
-		int num1, num2;
+	int num1; //smaller number
+	int num2; // larger number
+	while (noOfTestCases--) {
 		scanf("%d %d",&num1,&num2);
 		generatePrimeBetween(num1, num2);
 	}
