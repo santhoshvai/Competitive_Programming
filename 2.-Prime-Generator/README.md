@@ -2,6 +2,8 @@
 
 [Online - Compile, Link, Run](http://ideone.com/NaP73a)
 
+[MUST READ](http://turjachaudhuri.wordpress.com/2013/12/14/spoj-prime-1-segmented-sieve-of-eratosthenes/)
+
 Peter wants to generate some prime numbers for his cryptosystem. Help him! Your task is to generate all prime numbers between two given numbers!
 
 Input
