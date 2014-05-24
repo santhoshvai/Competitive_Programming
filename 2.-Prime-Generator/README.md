@@ -1,5 +1,7 @@
 [WEB-PAGE](http://www.spoj.com/problems/PRIME1/)
 
+[Online - Compile, Link, Run](http://ideone.com/NaP73a)
+
 Peter wants to generate some prime numbers for his cryptosystem. Help him! Your task is to generate all prime numbers between two given numbers!
 
 Input
