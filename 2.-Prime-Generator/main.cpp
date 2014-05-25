@@ -45,7 +45,6 @@ void generatePrimeBetween(const int lower, const int upper){
             }   
 }
 int main(){
-	// your code goes here
 	init_primes();
 	int noOfTestCases;
 	scanf("%d", &noOfTestCases);
