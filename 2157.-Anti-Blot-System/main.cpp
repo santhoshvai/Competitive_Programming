@@ -30,6 +30,10 @@ int main ()
     scanf("\n");
   	std::vector <std::string> equation = 
   		splitString(const_cast<char*>(str.c_str()));
+  	/* 
+  	str.c_str() returns const char* of the string
+  	const_cast<char*> returns char* of const char*
+  	*/
      if(equation[0].find("m") != -1)
         {
             a = str2int(equation[1]);
