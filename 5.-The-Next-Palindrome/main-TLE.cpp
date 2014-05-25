@@ -1,20 +1,25 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
-//check if the number is a palindrome
+string int2str(int Number){
+    ostringstream convert;   // stream used for the conversion
+    convert << Number;      // insert the textual representation of 'Number' in the characters in the stream
+    return convert.str(); // return the contents of the stream         
+}
+
 bool isPalindrome(int number) {
-    string str1 = to_string(number);
+    string  str1 = int2str(number);
     string tempstr = str1;
-    std::reverse(str1.begin(), str1.end()); //reverses the string
+    std::reverse(str1.begin(), str1.end());
     if (tempstr.compare(str1) == 0)
        return true;
     return false;
 }
 
-// returns the next largest palindrome of a given number
 int nextLargestPalindrome(int N) {
     for ( int i = N + 1; ; i++ ) {
         if ( isPalindrome( i ) ) 
