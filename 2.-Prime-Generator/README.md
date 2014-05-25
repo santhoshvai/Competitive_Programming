@@ -1,6 +1,6 @@
 [WEB-PAGE](http://www.spoj.com/problems/PRIME1/)
 
-[Online - Compile, Link, Run](http://codepad.org/JsP6bodL)
+[Online - Compile, Link, Run](http://codepad.org/7iPWsHpL)
 
 [MUST READ](http://turjachaudhuri.wordpress.com/2013/12/14/spoj-prime-1-segmented-sieve-of-eratosthenes/)
 
