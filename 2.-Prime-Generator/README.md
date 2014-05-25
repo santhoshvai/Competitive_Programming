@@ -4,7 +4,7 @@
 
 [MUST READ](http://turjachaudhuri.wordpress.com/2013/12/14/spoj-prime-1-segmented-sieve-of-eratosthenes/)
 
-<font color='red'> WARNING: Must use segmented sieve segmented sieve of eratosthenes Algorithm </font> [Wiki here](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+:facepunch: WARNING: Must use segmented sieve segmented sieve of eratosthenes Algorithm :facepunch: [Wiki here](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 Peter wants to generate some prime numbers for his cryptosystem. Help him! Your task is to generate all prime numbers between two given numbers!
 
