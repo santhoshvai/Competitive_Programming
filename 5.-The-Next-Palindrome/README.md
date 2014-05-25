@@ -1,4 +1,4 @@
-[CoLiRu](http://ideone.com/RUx1oq)
+[CoLiRu - TLE](http://ideone.com/RUx1oq)
 
 ### Simple Implementation gives TLE 
 [Refer](http://programmerthing.blogspot.nl/2011/05/spoj-5-next-palindrome-problem-code.html)
