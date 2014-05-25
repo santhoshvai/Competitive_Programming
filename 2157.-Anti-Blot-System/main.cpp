@@ -46,7 +46,7 @@ int main ()
             b = str2int(equation[2]);
             std::cout<<a<<" + "<<b-a<<" = "<<b<<std::endl;
         }
-        else if(equation[2].find("machula") != -1)
+        else if(equation[2].find("m") != -1)
         {
             a = str2int(equation[0]);
             b = str2int(equation[1]);
