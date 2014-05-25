@@ -1,5 +1,7 @@
 [SPOJ LINK](http://www.spoj.com/problems/ABSYS/)
 
+[Online - CoLiRu](http://ideone.com/qttqb9)
+
 Jimmy is a hard-working pupil in his second year at primary school. Recently he decided to convert all his notes into an electronic version. Sadly, he found that his math notes were full of ink blots.
 
 He scanned the notes and sent them through his own OCR package (yes, he coded it all by himself at the age of 8). The OCR package replaced all ink blots by the string "machula".
