@@ -2,6 +2,8 @@
 #include<math.h>
 #include<stdlib.h>
 
+using namespace std;
+
 int prime[10000],primes;
 
 void init_primes(){
