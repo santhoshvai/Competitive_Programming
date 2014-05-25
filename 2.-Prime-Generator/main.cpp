@@ -4,7 +4,6 @@
 
 int prime[10000],primes;
 
-//generate all the primes between 0 and sqrt(10000)
 void init_primes(){
      static bool isprime[32000];
      int i,j;
@@ -25,10 +24,10 @@ void find_seive(int lo, int hi){
    int i,j,p,n;
    for(i=0; i<=hi-lo; i++) 
        seive[i]=true;
-   for(j=0;j<=primes;j++){
+   for(j=0;;j++){
        p=prime[j];
-       if(p*p > hi) break; //stop when the max prime is reached
-       n = (lo/p)*p; //nearest compasite to the prime number p
+       if(p*p > hi) break;
+       n = (lo/p)*p;
        if(n<lo) n+=p;
        if(n==p) n+=p;
        for(;n<=hi; n+=p) 
@@ -36,14 +35,16 @@ void find_seive(int lo, int hi){
    }  
 }
 
-void generatePrimeBetween(const int lower, const int upper){
+
+void generatePrimeBetween(int lower, const int upper){
 	if(lower<2) lower=2;
 	find_seive(lower,upper);
-        for(i=0; i<=upper-lower; i++)
+         for(int i=0; i<=upper-lower; i++)
             if(seive[i]){
                cout << lower+i << endl;
             }   
 }
+
 int main(){
 	init_primes();
 	int noOfTestCases;
