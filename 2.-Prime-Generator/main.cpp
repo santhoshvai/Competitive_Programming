@@ -6,6 +6,7 @@ using namespace std;
 
 int prime[10000],primes;
 
+//find all the primes between 2 and sqrt(10000)
 void init_primes(){
      static bool isprime[32000];
      int i,j;
@@ -28,8 +29,8 @@ void find_seive(int lo, int hi){
        seive[i]=true;
    for(j=0;;j++){
        p=prime[j];
-       if(p*p > hi) break;
-       n = (lo/p)*p;
+       if(p*p > hi) break; //stop at the hi
+       n = (lo/p)*p; //nearest composite to lo for that prime
        if(n<lo) n+=p;
        if(n==p) n+=p;
        for(;n<=hi; n+=p) 
