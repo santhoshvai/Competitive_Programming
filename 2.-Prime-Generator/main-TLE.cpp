@@ -12,13 +12,13 @@ void generatePrimeBetween(const int num1, const int num2){
 	if ( num1 > 2)
 	    num1new  = (num1/2)*2;        
         int num2Range  = static_cast<int>(sqrt((double)num2));
-	for(int i=num1;i<=num2;++i)
+	for(int i=num1new;i<=num2;++i)
     		primeBool[i] = true;
  	for(int i=num1new;i<=num2Range;++i)
         	if(primeBool[i]==true)
                 	for(int j=i*i;j<=num2;j=j+i)
                     		primeBool[j]=false;                     
- 	for(int i=num1;i<=num2;++i)
+ 	for(int i=num1new;i<=num2;++i)
     		if(primeBool[i] == true) cout << i << endl; 
 }
 int main() {
