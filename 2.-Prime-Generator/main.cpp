@@ -28,7 +28,7 @@ void find_seive(int lo, int hi){
    for(j=0;j<=primes;j++){
        p=prime[j];
        if(p*p > hi) break; //stop when the max prime is reached
-       n = (lo/p)*p;
+       n = (lo/p)*p; //nearest compasite to the prime number p
        if(n<lo) n+=p;
        if(n==p) n+=p;
        for(;n<=hi; n+=p) 
@@ -46,6 +46,7 @@ void generatePrimeBetween(const int lower, const int upper){
 }
 int main(){
 	// your code goes here
+	init_primes();
 	int noOfTestCases;
 	scanf("%d", &noOfTestCases);
 	int num1; //smaller number
