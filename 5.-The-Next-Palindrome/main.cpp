@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <cstring>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -27,13 +28,18 @@ bool isPlaindrome(char * a){
 
 char * nextPlaindrome(char * longDigitNumber){
 	int length = strlen(longDigitNumber);
-	char temp[3];
-	if(length % 2 != 0) temp[0] = longDigitNumber[int(length/2)];
-	else {
-		temp[0] =  longDigitNumber[int(length/2)-1] ;
-		temp[1] = longDigitNumber[int(length/2)] ;
+	char* pChar;
+	if(length % 2 != 0) {
+		*pChar = malloc(sizeof(char));
+		pChar = &longDigitNumber[int(length/2)];
 	}
-	return temp;
+	else {
+		*pChar = malloc(sizeof(char)+1);
+		
+		pChar = &longDigitNumber[int(length/2)-1] ;
+		strncat (pChar, &longDigitNumber[int(length/2)], 2);
+	}
+	return pChar;
 	
 }
 
