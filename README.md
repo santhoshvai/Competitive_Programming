@@ -3,9 +3,6 @@ SPOJ
 
 My answers to SPOJ Problem Set
 
-SPOJ solutions
-==============
-
 * [Profile](http://www.spoj.com/users/santhoshvai)
 
 Classical
