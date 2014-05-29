@@ -1,5 +1,5 @@
-[CoLiRu - TLE](http://ideone.com/RUx1oq)
-[Accepted Solution](http://ideone.com/0tzjuY)
+* [CoLiRu - TLE](http://ideone.com/RUx1oq)
+* [Accepted Solution](http://ideone.com/0tzjuY)
 
 ### Simple Implementation gives TLE 
 * [Refer-1 : BlogSpot](http://programmerthing.blogspot.nl/2011/05/spoj-5-next-palindrome-problem-code.html)
