@@ -1,3 +1,1 @@
-# SPOJ Link
-
-(http://www.spoj.com/problems/ADDREV/)[http://www.spoj.com/problems/ADDREV/]
+# [SPOJ Link] (http://www.spoj.com/problems/ADDREV/)
