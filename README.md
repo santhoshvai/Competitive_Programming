@@ -30,5 +30,5 @@ OTHER TOOLS
 ===========
 
 #### C++ Profiling
-* [Blog](http://baptiste-wicht.com/posts/2011/09/profile-c-application-with-callgrind-kcachegrind.html)
+* [Blog](http://kusemanohar.wordpress.com/2012/08/13/c-performance-analysis-profiling-tools/)
 * [Stanford Guide](http://www.stanford.edu/class/cs107/guide_callgrind.html)
