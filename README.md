@@ -12,6 +12,7 @@ Classical
 2. ✔ [PRIME1](http://www.spoj.com/problems/PRIME1)
 3. ✔ [TEST](http://www.spoj.com/problems/TEST)
 4. ✔ [ABSYS](http://www.spoj.com/problems/ABSYS/)
+5. ✔ [ADDREV](http://www.spoj.com/problems/ADDREV/)
 
 Challenge
 ---------
