@@ -26,6 +26,9 @@ Challenge
 * [ideone](http://ideone.com/)
 * [codepad](http://codepad.org/)
 
-#### OTHER TOOLS 
+OTHER TOOLS
+===========
 
-* [C++ Profiling](http://baptiste-wicht.com/posts/2011/09/profile-c-application-with-callgrind-kcachegrind.html)
+#### C++ Profiling
+* [Blog](http://baptiste-wicht.com/posts/2011/09/profile-c-application-with-callgrind-kcachegrind.html)
+* [Stanford Guide](http://www.stanford.edu/class/cs107/guide_callgrind.html)
