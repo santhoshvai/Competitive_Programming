@@ -26,14 +26,14 @@ void getRevAdd(const int num1, const int num2){
 
 int main() {
 // your code goes here
-int noOfTestCases;
-scanf("%d", &noOfTestCases);
-int num1; //smaller number
-int num2; // larger number
-while (noOfTestCases--) {
-scanf("%d %d",&num1,&num2);
-getRevAdd(num1, num2);
-cout << endl;
-}
-return 0;
+    int noOfTestCases;
+    scanf("%d", &noOfTestCases);
+    int num1; //smaller number
+    int num2; // larger number
+    while (noOfTestCases--) {
+        scanf("%d %d",&num1,&num2);
+        getRevAdd(num1, num2);
+        cout << endl;
+    }
+    return 0;
 }
