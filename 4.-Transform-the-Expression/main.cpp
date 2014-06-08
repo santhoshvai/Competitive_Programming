@@ -8,7 +8,7 @@
 using namespace std;
 
 /*
-top
+top / front
     Access next element (public member function )
 
 push
@@ -16,6 +16,9 @@ push
 
 pop
     Remove top element (public member function )
+
+string::npos
+    As a return value, it is usually used to indicate no matches.
 */
 
 string convert(string input) {
