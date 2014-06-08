@@ -1,10 +1,13 @@
 #include <iostream>
 #include <cstdio>
 
-int zfunc(const int n){
+int zfunc(int n){
     int ret = 0;
-    for (int p = 5; p <= n; p*=5)
-        ret += n/p;
+    while(n>=5)
+    {
+        ret += n/5;
+        n /= 5;
+    }
     return ret;
 }
 
@@ -20,3 +23,6 @@ int main() {
     }
 return 0;
 }
+
+
+
