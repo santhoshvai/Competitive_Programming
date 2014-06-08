@@ -17,6 +17,7 @@ Classical
 6. ✔ [FCTRL](http://www.spoj.com/problems/FCTRL/)
 7. ✔ [FCTRL2](http://www.spoj.com/problems/FCTRL2/)
 8. ✔ [ONP](http://www.spoj.com/problems/ONP/)
+9. ✔ [NSTEPS](http://www.spoj.com/problems/NSTEPS/)
 
 Challenge
 ---------
