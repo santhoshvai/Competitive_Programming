@@ -4,6 +4,7 @@ SPOJ
 My answers to SPOJ Problem Set
 
 * [Profile](http://www.spoj.com/users/santhoshvai)
+* [Solving Order](http://www.spoj.com/problems/classical/sort=-6)
 
 Classical
 ---------
