@@ -1,11 +1,7 @@
 #include<iostream>
-#include<math.h>
 #include<stdlib.h>
 
 using namespace std;
-
-#define SIZE 100000
-bool primeBool[SIZE];
 
 int rev(int num){
 	int reminder = 0;	
