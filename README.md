@@ -15,6 +15,7 @@ Classical
 4. ✔ [ABSYS](http://www.spoj.com/problems/ABSYS/)
 5. ✔ [ADDREV](http://www.spoj.com/problems/ADDREV/)
 6. ✔ [FCTRL](http://www.spoj.com/problems/FCTRL/)
+7. ✔ [FCTRL2](http://www.spoj.com/problems/FCTRL2/)
 
 Challenge
 ---------
