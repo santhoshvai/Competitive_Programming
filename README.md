@@ -18,6 +18,8 @@ Classical
 7. ✔ [FCTRL2](http://www.spoj.com/problems/FCTRL2/)
 8. ✔ [ONP](http://www.spoj.com/problems/ONP/)
 9. ✔ [NSTEPS](http://www.spoj.com/problems/NSTEPS/)
+10. ✘ [XMEN](http://www.spoj.com/problems/XMEN/)
+11. ✘ [MUL](http://www.spoj.com/problems/MUL/)
 
 Challenge
 ---------
