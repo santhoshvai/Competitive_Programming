@@ -11,10 +11,10 @@ void init_primes(){
      static bool isprime[32000];
      int i,j;
      for(i=2;i<32000;i++) isprime[i]=true;
-     for(i=2;i*i < 32000;i++)if(isprime[i])
-     {
-         for(j=2*i;j<32000;j+=i) isprime[j]=false;        
-     }
+     for(i=2;i*i < 32000;i++)
+     	if(isprime[i])
+         	for(j=2*i;j<32000;j+=i)
+         		isprime[j]=false;        
      primes=0;
      for(i=2;i<32000;i++)
         if(isprime[i]) 
