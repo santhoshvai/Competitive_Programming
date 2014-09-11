@@ -20,6 +20,8 @@ Classical
 9. ✔ [NSTEPS](http://www.spoj.com/problems/NSTEPS/)
 10. ✘ [XMEN](http://www.spoj.com/problems/XMEN/)
 11. ✘ [MUL](http://www.spoj.com/problems/MUL/)
+12. ✔ [LASTDIG](http://www.spoj.com/problems/LASTDIG/)
+13. ✘ [MPOWER](http://www.spoj.com/problems/MPOWER/)
 
 Challenge
 ---------
