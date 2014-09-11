@@ -22,6 +22,8 @@ Classical
 11. ✘ [MUL](http://www.spoj.com/problems/MUL/)
 12. ✔ [LASTDIG](http://www.spoj.com/problems/LASTDIG/)
 13. ✘ [MPOWER](http://www.spoj.com/problems/MPOWER/)
+14. ✔ [bigMod - UVa](http://goo.gl/qguGoL)
+15. ✘ [LCPCP2 - spoj](http://www.spoj.com/problems/LCPCP2/)
 
 Challenge
 ---------
